@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <Banner />
-        <div style={{ margin: "20px", display: "flex justify-start", flexDirection: "rall", alignContent: "space-around", justifyContent: "space-around", flexWrap: "wrap" }}>
+        <div style={{ margin: "20px", display: "flex justify-start", flexDirection: "row", alignContent: "space-around", justifyContent: "space-around", flexWrap: "wrap" }}>
           <Card />
         </div>
         
